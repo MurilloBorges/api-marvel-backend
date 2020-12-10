@@ -5,6 +5,7 @@
   "license": "MIT",
   "scripts": {
     "start": "nodemon src/server.js",
+    "start:deploy": "node src/server.js",
     "cy:open": "cypress open",
     "cy:run": "cypress run"
   },
